@@ -571,7 +571,7 @@ with st.sidebar.form("profile_form"):
     dream_job = st.text_input("희망 직업", placeholder="예: 프로그래머, 간호사, 교사 ...")
     career_tracks = st.multiselect("관심 계열 (복수 선택 가능)", list(TRACK_COMBOS.keys()))
     st.markdown("---")
-    st.markdown("**📊 현재 성적 (2학년 기준)**")
+    st.markdown("**📊 현재 성적 (1학년 기준)**")
     grades = {}
     gcols = st.columns(len(SUBJECTS))
     for i, subj in enumerate(SUBJECTS):
