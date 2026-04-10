@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="삼괴고 3학년 선택과목 가이드", page_icon="📚", layout="wide")
+st.set_page_config(page_title="삼괴고 2학년 선택과목 가이드", page_icon="📚", layout="wide")
 
 st.markdown("""
 <style>
