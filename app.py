@@ -578,7 +578,7 @@ def render_univ_guide_boxes(career_tracks):
     if not guides_shown: return
     for trk_name, guide in guides_shown[:3]:
         st.markdown(f"""<div class="univ-guide-box">
-<div class="guide-title">{guide["icon"]} {trk_name} — 2028 대입 참고사항</div>
+<div class="guide-title">{guide["icon"]} {trk_name} — 대입 참고사항</div>
 <div class="guide-prereq">📌 <b>대학별 권장:</b> {guide["prereq"]}</div>
 <div class="guide-3rd">💡 <b>2학년 선택 포인트:</b> {guide["third"]}</div>
 </div>""", unsafe_allow_html=True)
@@ -654,7 +654,7 @@ st.markdown("""
     </div>
     <div style="color: #92400e; font-size: 0.95rem; line-height: 1.6;">
         본 가이드 및 AI 맞춤 추천 결과는 학생 여러분의 선택을 돕기 위한 <b>참고자료</b>일 뿐입니다.<br>
-        2학년 과목 선택은 <b>3학년 심화 과목의 기초</b>가 되며, <b>2028 대입에서 대학별 권장 이수 과목</b>과 직결됩니다.<br>
+        2학년 과목 선택은 <b>3학년 심화 과목의 기초</b>가 되며, <b>대입에서 대학별 권장 이수 과목</b>과 직결됩니다.<br>
         최종 과목 선택은 본인의 희망 진로, 목표 대학의 입시 요강을 꼼꼼히 확인하고, <b>교과 담당 선생님 및 담임 선생님, 부모님 등과 충분한 상담을 통해 신중하게 결정</b>하시기 바랍니다.
     </div>
 </div>
