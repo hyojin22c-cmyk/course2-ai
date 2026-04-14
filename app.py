@@ -645,7 +645,7 @@ if submitted:
 # UI
 # ============================================================
 st.markdown("""<div class="main-header"><h1>📚 삼괴고 2학년 선택과목 가이드</h1>
-<p>2025학년도 입학생 교육과정 편제 기준 · 진로별 추천 조합 & AI 맞춤 추천</p></div>""", unsafe_allow_html=True)
+<p>2026학년도 입학생 교육과정 편제 기준 · 진로별 추천 조합 & AI 맞춤 추천</p></div>""", unsafe_allow_html=True)
 
 st.markdown("""
 <div style="background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 6px solid #f59e0b; border-radius: 8px; padding: 1.2rem 1.5rem; margin-bottom: 2rem;">
