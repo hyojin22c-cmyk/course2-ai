@@ -510,6 +510,11 @@ def render_card(name, info, is_rec=False):
     if info.get("univ_note"):
         univ_html = f'<div class="ai-univ-note">🎓 {info["univ_note"]}</div>'
     st.markdown(f"""<div class="{cls}">
+                .block-container {
+    max-width: 1200px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 <div class="course-name">{rec}{name}</div>
 <div style="margin-bottom:0.4rem;"><span class="badge badge-group">{info["grp"]} · {info["cr"]}학점</span><span class="badge {ev_cls}">{info["eval"]}</span></div>
 <div class="course-desc">{info["desc"]}</div><div>{tracks}</div>
