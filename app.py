@@ -457,10 +457,10 @@ def calc_total_score(course_name, course, profile):
                     if isinstance(items, list):
                         if course_name in items:
                             idx = items.index(course_name)
-                            combo_bonus = max(combo_bonus, (len(items) - idx) * 1.75)
+                            combo_bonus = max(combo_bonus, (len(items) - idx) * 1.8)
                     else:
                         if course_name == items:
-                            combo_bonus = max(combo_bonus, 1.75)
+                            combo_bonus = max(combo_bonus, 1.8)
     total = min(100, total + combo_bonus)
     return round(total, 1), scores
 
